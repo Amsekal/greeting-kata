@@ -14,15 +14,15 @@ int main()
 
     if(vannev){cin>>nev;
     csillag();
-    cout << "Good morning " <<nev<<"!"<< endl;
+    cout << "*Good morning " <<nev<<"!*"<< endl;
 
-    cout << "Happy Eastern, " <<nev<<"!"<< endl;
+    cout << "*Happy Eastern, " <<nev<<"!*"<< endl;
     csillag();}
     else    {
         csillag();
-    cout << "Good morning my friend " <<"!"<< endl;
+    cout << "*Good morning my friend " <<"!*"<< endl;
 
-    cout << "Happy Eastern, my friend " <<"!"<< endl;
+    cout << "*Happy Eastern, my friend " <<"!*"<< endl;
     csillag();}
     return 0;
 }

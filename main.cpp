@@ -22,16 +22,24 @@ int main()
 
     if(vannev){cin>>nev;a=strlen(nev);
     csillag();
-    kozepre(a);
-   // cout << "*Good morning " <<nev<<"!*"<< endl;
 
+   // cout << "*Good morning " <<nev<<"!*"<< endl;
+cout<<"*";
+        for(int i=0;i<78;i++)
+        cout<<" ";
+        cout<<"*";
+            kozepre(a);
     cout << "*Happy Eastern, " <<nev<<"!*"<< endl;
     csillag();}
     else    {
         csillag();
-        kozepre(10);
-    //cout << "*Good morning my friend " <<"!*"<< endl;
 
+    //cout << "*Good morning my friend " <<"!*"<< endl;
+cout<<"*";
+        for(int i=0;i<78;i++)
+        cout<<" ";
+        cout<<"*";
+        kozepre(10);
     cout << "*Happy Eastern, my friend " <<"!*"<< endl;
     csillag();}
     return 0;

@@ -8,12 +8,21 @@ void csillag()
 }
 int main()
 {
+    int vannev;
     char nev[50];
-    cin>>nev;
+    cin>>vannev;
+
+    if(vannev){cin>>nev;
     csillag();
     cout << "Good morning " <<nev<<"!"<< endl;
 
     cout << "Happy Eastern, " <<nev<<"!"<< endl;
-    csillag();
+    csillag();}
+    else    {
+        csillag();
+    cout << "Good morning my friend " <<"!"<< endl;
+
+    cout << "Happy Eastern, my friend " <<"!"<< endl;
+    csillag();}
     return 0;
 }
